@@ -1,0 +1,37 @@
+.checkboxButton {
+  font-size:12px;
+  font-family: Segoe UI;
+  background-color:#efefef;
+  margin:0;
+  padding-block:2px;
+  padding-inline:6px;
+  cursor:pointer;
+  border-width:1px;
+  box-sizing:border-box;
+  border-style:solid;
+  border-color:#767676;
+  display:inline-block;
+}
+.checkboxButton:hover {
+  background-color: #e5e5e5;
+}
+.checkboxButton>input[type="checkbox"] {
+  vertical-align: bottom;
+  margin: 0 0 1px 0;
+}
+button {
+  cursor:pointer;
+  font-size:12px;
+  font-family: Segoe UI;
+}
+.RotateOnHover.hovering {
+  animation: rotation 10s linear infinite;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
